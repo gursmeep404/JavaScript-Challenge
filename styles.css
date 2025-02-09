@@ -1,0 +1,87 @@
+body {
+  font-family: sans-serif;
+  background-color: rgba(26, 25, 24, 0.893);
+  text-align: center;
+}
+h1 {
+  color: beige;
+}
+
+form {
+  margin: 3rem auto;
+  width: 90%;
+  max-width: 50rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  padding: 1rem;
+  background-color: rgb(246, 245, 201);
+}
+
+.control {
+  margin-bottom: 1rem;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+input {
+  font: inherit;
+  font-size: 1.15rem;
+  padding: 0.35rem;
+  border: 1px solid rgb(204, 204, 204);
+  background-color: rgb(241, 232, 182);
+  color: rgb(53, 51, 39);
+  width: 25rem;
+  border-radius: 4px;
+  margin-right: 1rem;
+  vertical-align: middle;
+}
+
+input:focus {
+  background-color: rgb(253, 245, 196);
+}
+
+button {
+  font: inherit;
+  background-color: rgb(209, 184, 23);
+  border: 1px solid rgb(209, 184, 23);
+  color: rgb(44, 43, 36);
+  border-radius: 4px;
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(209, 197, 23);
+  border-color: rgb(209, 197, 23);
+}
+#calculated-sum {
+  padding: 1rem;
+  text-align: center;
+  font-size: 3rem;
+  display: none;
+  color: black;
+  background-color: rgb(209, 166, 23);
+}
+
+.highlight {
+  color: rgb(236, 94, 94);
+  background-color: blueviolet;
+}
+#oolalala span {
+  background-color: rgb(209, 166, 23);
+  color: black;
+  padding: 6px;
+}
+
+section {
+  background-color: beige;
+  width: 800px;
+  margin: 40px auto 40px;
+  padding: 5px 20px 20px 20px;
+  text-align: left;
+  border-radius: 6px;
+}
